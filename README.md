@@ -62,6 +62,8 @@ while(!opened.empty())
   }
 ```
 
+<img src="https://github.com/ChenBohan/Robotics-Path-Planning-04-Hybrid-A-Star/blob/master/readme_img/expand.png" width = "70%" height = "70%" div align=center />
+
 ```cpp
 vector<HBF::maze_s> HBF::expand(HBF::maze_s state, vector<int> goal) {
   int g = state.g;
