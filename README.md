@@ -14,6 +14,16 @@ The breadth first search algorithm which ``does not`` use any heuristics to impr
 
 ## Expand
 
+While there are still states to explore,
+
+Sort the states by f-value and start search using the state with the lowest f-value.
+
+The f-value improves search efficiency by indicating where to look first.
+
+Check if the x and y coordinates are in the same grid cell as the goal.
+
+Otherwise, expand the current state to get a list of possible next states.
+
 ```cpp
 while(!opened.empty())
   {
